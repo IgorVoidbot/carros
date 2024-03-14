@@ -21,7 +21,7 @@ class CarsListView(ListView):
     
 
 
-class CarDetailView(DetailView):  
+class CarDetailView(DetailView):
     model = Car
     template_name = 'car_detail.html'
 
